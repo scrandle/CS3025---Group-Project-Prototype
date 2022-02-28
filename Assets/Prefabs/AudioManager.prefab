@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1187277391757139350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1187277391757139348}
+  - component: {fileID: 1187277391757139351}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1187277391757139348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187277391757139350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09962819, y: 1.1444429, z: -0.010340214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1187277391757139351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187277391757139350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e353611608bf54b9847d83e2565f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Settings
+    clip: {fileID: 8300000, guid: 76b0d65f5a12e06429fb5106dc8bed01, type: 3}
+    volume: 0.49
+    pitch: 1.49
+    loop: 0
+    source: {fileID: 0}
+  - name: Party
+    clip: {fileID: 8300000, guid: 7c82ecae052bdc44ebcc003faa91a749, type: 3}
+    volume: 0.44
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Inventory
+    clip: {fileID: 8300000, guid: 41e2ee35d1963e242bf74ab7ef8944f1, type: 3}
+    volume: 0.47
+    pitch: 1.44
+    loop: 0
+    source: {fileID: 0}
+  - name: Internet Connection
+    clip: {fileID: 8300000, guid: 668099428e7143c41bf023da9894545f, type: 3}
+    volume: 0.49
+    pitch: 1.55
+    loop: 0
+    source: {fileID: 0}
+  - name: Play
+    clip: {fileID: 8300000, guid: 098171fa505ea0b4a9a100d8a69b0df3, type: 3}
+    volume: 0.53
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Credits
+    clip: {fileID: 8300000, guid: d60d02fcf906fb24a90b9b8120d9443b, type: 3}
+    volume: 0.51
+    pitch: 1.66
+    loop: 0
+    source: {fileID: 0}
+  - name: Return
+    clip: {fileID: 8300000, guid: 7c82ecae052bdc44ebcc003faa91a749, type: 3}
+    volume: 0.58
+    pitch: 1.94
+    loop: 0
+    source: {fileID: 0}
+  - name: Quit
+    clip: {fileID: 0}
+    volume: 0.58
+    pitch: 1.83
+    loop: 0
+    source: {fileID: 0}
